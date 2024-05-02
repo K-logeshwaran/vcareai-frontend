@@ -1,0 +1,26 @@
+.float-bt{
+    position: fixed;
+    bottom: 3rem;
+    right: .5rem;
+    width:  25rem;
+    height: 30rem;
+    overflow-y: scroll;
+  }
+
+.float-bt::-webkit-scrollbar {
+    display: none;
+}
+  /*
+   <div className="float-bt" >
+
+                            <iframe
+                                src="https://www.chatbase.co/chatbot-iframe/tH2_p_HHbp95IKiHe0DEh"
+                                title="Chatbot"
+                                width="100%"
+                                style={{ height: "100%"}}
+                                frameBorder={0}
+                            />
+
+                        </div>
+  */
+  

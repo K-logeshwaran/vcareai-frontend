@@ -1,0 +1,124 @@
+
+/* 
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.wrapper {
+  width: 100%;
+  margin: auto;
+}
+
+.forms-outer {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  padding: 1.5rem;
+}
+
+.forms {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.forms div {
+  width: 80%;
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.forms div label {
+  font-weight: 700;
+}
+
+.forms div input {
+  padding: 0.5rem;
+}
+
+.forms button ,.forms p {
+  width: 80%;
+  margin: auto;
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+  cursor: pointer;
+}
+
+.forms p{
+  text-align: center;
+  padding: 0;
+  cursor: default;
+  font-size: 1.3rem;
+}
+
+.spacing{
+  gap: 1rem;
+}
+.spacing{
+  margin-top: 1rem;
+}
+ */
+
+
+.loader {
+  width: 30px;
+  height: 30px;
+  border: 5px solid #FFF;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+  }
+
+  @keyframes rotation {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+  } 
+
+.emp-card{
+  display: flex;
+  flex-direction: column; 
+}
+
+.emp-card-grp{
+  display: flex;
+  justify-content: space-between;
+}
+
+.help-frm input{
+  padding: .5rem;
+
+}
+
+.help-frm input ::placeholder{
+  text-transform: uppercase;
+}
+.help-frm select{
+  padding: .3rem;
+}
